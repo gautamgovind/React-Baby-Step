@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding: 20px;
+  background: #dedeb1;
 }
 
 .App-logo {
@@ -35,4 +37,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.toggle-img-container, .component-with-label-msg, .todo-container {
+    width: 500px;
+    background: #dedede;
+    margin: 0 auto;;
+}
+.toggle-img {
+  padding: 10px 0;
+  height: 200px;
+  width: 300px;
+}
+
+.toggle-msg {
+  font-size: 15px;
+}
+
+.primary-btn {
+  height: 40px;
+  width: 70%;
+  background: #ffffff;
+  color: #2a2a2a;
+  border: 1px solid #282c34;
+}
+
+.todo-container {
+  padding: 15px;
+}
+.todo-input {
+  display: flex;
+  justify-content: space-between;
+}
+.todo-input input {
+  width: 70%;
+  height: 30px;
+}
+.todo-input-label {
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+.todo-input button {
+  width: 30%;
+  height: 35px;
+  background: #fff;
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  color: #2a2a2a;
+}
+ul li {
+  height: 30px;
+  border-bottom: 1px solid #2a2a2a;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.delete-todo {
+  font-size: 14px;
+  padding-left: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.error-msg {
+  text-align: left;
 }

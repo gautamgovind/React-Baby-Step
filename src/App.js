@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Label from './component/HOC/Label';
+import Image from './component/HOC/Image';
+import Clock from './component/Clock';
+import CalculateTemp from './component/Extra/CalculateTemp';
+import Todo from './component/TodoClass';
+import {TodoFunction} from './component/TodoFunction';
+import {TicTac} from './component/TicTac/TicTac';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Image />
+        <Label />
+        <Clock />
+        <CalculateTemp />
+        <Todo />
+        <TodoFunction />
+        <TicTac />
     </div>
   );
 }
